@@ -1,0 +1,49 @@
+body
+  width 400px
+  font-size 1em
+  line-height 1.42
+
+.text-elipsis
+  {text-ellipsis}
+
+.readony-value
+  .v-input__slot
+    border-color $silver !important
+
+  input
+    padding 0 0 20px !important
+
+.balance-value
+  color $black
+
+.dots-unit
+  color $aluminum
+  text-transform uppercase
+  font-size 11px
+
+// visual dots for transactions
+.send-dot,
+.stake-dot,
+.receive-dot
+  position relative
+
+  &:before
+    content ''
+    position absolute
+    top 11px
+    left -25px
+    width 15px
+    height 15px
+    border-radius 50%
+
+.send-dot
+  &:before
+    @extend .red.lighten-4
+
+.stake-dot
+  &:before
+    @extend .green.lighten-4
+
+.receive-dot
+  &:before
+    @extend .blue.lighten-4

@@ -1,0 +1,1 @@
+# Speckle OS - Wallet extension
