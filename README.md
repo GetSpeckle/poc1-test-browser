@@ -1,2 +1,2 @@
-# Speckle OS - Wallet extension
-This is currently being developed in a Private Repo on GitLab. Contents will be moved shortly. 
+# POC for web 3 browser.
+This is a POC for the web 3 browser. Now defunct.
